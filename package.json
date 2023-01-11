@@ -1,14 +1,14 @@
 {
-  "name": "react-native-tags-input",
-  "version": "1.0.10",
-  "description": "Input component for React Native to add and remove tags.",
+  "name": "rn-tags-input",
+  "version": "0.0.1",
+  "description": "Input component for React Native for Tags Items.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jimmybengtsson/react-native-tags-input.git"
+    "url": "git+https://github.com/JohnnyScript/rn-tags-input.git"
   },
   "keywords": [
     "react",
@@ -18,13 +18,14 @@
     "input",
     "form"
   ],
-  "author": "jimmybengtsson",
+  "author": "johnnyscript",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimmybengtsson/react-native-tags-input/issues"
+    "url": "https://github.com/JohnnyScript/rn-tags-input/issues"
   },
-  "homepage": "https://github.com/jimmybengtsson/react-native-tags-input#readme",
+  "homepage": "https://github.com/JohnnyScript/rn-tags-input#readme",
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "deprecated-react-native-prop-types": "^4.0.0",
+    "prop-types": "^15.8.1"
   }
 }
