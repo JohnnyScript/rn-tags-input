@@ -4,7 +4,6 @@ import {
   Image,
   TextInput,
   StyleSheet,
-  ViewPropTypes,
   TouchableOpacity,
 } from 'react-native';
 import React from 'react';

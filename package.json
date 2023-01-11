@@ -1,6 +1,6 @@
 {
   "name": "rn-tags-input",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Input component for React Native for Tags Items.",
   "main": "index.js",
   "scripts": {
