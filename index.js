@@ -1,15 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import {
   Text,
   View,
+  Image,
   TextInput,
   StyleSheet,
-  Image,
+  ViewPropTypes,
   TouchableOpacity,
-  ViewPropTypes
 } from 'react-native';
-import {TextPropTypes, ViewPropTypes} from 'deprecated-react-native-prop-types';
+import React from 'react';
+import PropTypes from 'prop-types';
+import {TextInputPropTypes, TextPropTypes, ViewPropTypes} from 'deprecated-react-native-prop-types';
 
 
 class Tags extends React.Component {
@@ -237,7 +237,7 @@ Tags.propTypes = {
   keysForTagsArray: PropTypes.arrayOf(PropTypes.string),
   containerStyle: ViewPropTypes.style,
   inputContainerStyle: ViewPropTypes.style,
-  inputStyle: TextInput.propTypes.style,
+  inputStyle: TextInputPropTypes,
   disabledInputStyle: ViewPropTypes.style,
   leftElementContainerStyle: ViewPropTypes.style,
   rightElementContainerStyle: ViewPropTypes.style,
